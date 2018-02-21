@@ -9,7 +9,7 @@ Los mensajes de commit:
   * normalmente tienen una sola línea (aunque sabemos que más podría ser mejor)
   * la primera línea se forma de un **tipo**, un **contexto** y una **descripción**
     ```
-    tipo(contexto):descripción
+    tipo(scope/contexto):descripción
     ```
 
   La línea no debiera tener más de 100 caracteres para que se lea bien en Github.
@@ -24,7 +24,9 @@ Los mensajes de commit:
 
 #### Contexto
 
-  El contexto es una palabra que haga referencia al lugar del código donde afecta el commit.
+  El contexto es suele tener una referencia al scope asociado y a una palabra que haga referencia al
+  lugar del código donde afecta el commit. En caso de tener más de una palabra, usamos kebab-case.
+  Un ejemplo de contexto sería `api/admin-login`.
 
 #### Descripción
 

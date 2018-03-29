@@ -13,6 +13,11 @@ Los mensajes de commit:
     ```
 
   La línea no debiera tener más de 100 caracteres para que se lea bien en Github.
+  En caso de no poder resumir el commit en menos de 100 carácteres, usa un título
+  generalizado y especifica en la descripción del commit.
+    ```
+      git commit -m "titulo" -m "descripción"
+    ```
 
 #### Tipo
 
